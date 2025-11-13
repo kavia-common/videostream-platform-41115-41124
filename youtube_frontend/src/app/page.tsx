@@ -1,9 +1,13 @@
+"use client";
+
+import PillTabs from "@/components/PillTabs";
+import VideoGrid from "@/components/VideoGrid";
+
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white flex items-center justify-center">
-      <h1 className="text-black text-4xl font-light">
-        youtube_frontend is being generated
-      </h1>
-    </main>
+    <div className="space-y-4">
+      <PillTabs />
+      <VideoGrid />
+    </div>
   );
 }
